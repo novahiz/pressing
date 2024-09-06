@@ -8,15 +8,16 @@ const sendEmail = (e) => {
   //serviceID_templateID_#form_publickey
   emailjs
     .sendForm(
-      "service_prt1nk8",
-      "template_z18xcod",
-      "#checking-form",
-      "ENXyzicycBc8mtB5h"
+      "service_8gbttd9",
+      "template_oxugt8k",
+      "#contact_form",
+      "sagNfgQHO7yeLbpn5"
     )
     .then(
       () => {
         //show sent messenge
-        formMessage.textContent = "les données ont été envoyé avec succès ✅";
+        formMessage.textContent =
+          "Félicitation! vous recevrez régulière nos derniers offres et plus encore! ✅";
 
         // remove message after five seconds
         setTimeout(function () {
@@ -29,7 +30,8 @@ const sendEmail = (e) => {
       },
       () => {
         //show err
-        formMessage.textContent = "les données n'ont pas été envoyé ❌";
+        formMessage.textContent =
+          "Votre demande a échoué, veuillez nous contacter si le problème persist ❌";
       }
     );
 };

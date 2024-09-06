@@ -251,7 +251,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 250px;
+  height: 350px;
   width: 80%;
   margin-top: 50px;
   border-radius: 5px;
@@ -263,7 +263,7 @@
 
 .grid-container .main .news-letter .content .left {
   width: 50px;
-  height: 250px;
+  height: 350px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   background-color: rgba(137, 150, 173, 0.3);

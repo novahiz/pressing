@@ -20,6 +20,12 @@
 
     <!-- CDN -->
     <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+
     <!-- FONT AWSOME -->
     <link
       rel="stylesheet"
@@ -28,6 +34,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -339,7 +346,8 @@
                   type="text"
                   name="username"
                   id="username"
-                  placeholder="Nom: (optionnel)"
+                  placeholder="Nom:"
+                  required
                 />
                 <input
                   type="email"
@@ -348,12 +356,21 @@
                   placeholder="Email:"
                   required
                 />
+                <input
+                  type="whatsapp"
+                  name="userwhatsapp"
+                  id="userwhatsapp"
+                  placeholder="Numéro Whatsapp (optionnel):"
+                />
               </div>
               <button type="submit" class="btn">Envoyer</button>
             </form>
             <div class="right">
               <img src="./assets/svg/form.svg" alt="form" width="225px" />
             </div>
+          </div>
+          <div>
+            <p id="form_message"></p>
           </div>
         </section>
 

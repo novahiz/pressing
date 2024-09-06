@@ -440,13 +440,12 @@ body {
 .mobile_menu {
   display: block;
   position: fixed;
-  right: 15px;
-  left: 15px;
-  bottom: 20px;
-  box-shadow: 0 0 10px rgba(0, 16, 194, 0.489);
-  background-color: rgba(255, 255, 255, 0.9);
+  right: 0px;
+  left: 0px;
+  bottom: 5px;
+  box-shadow: 0 0 3px rgba(0, 16, 194, 0.489);
+  background-color: white;
   z-index: 100;
-  border-radius: 25px;
 }
 
 .mobile_menu ul {
@@ -475,4 +474,11 @@ body {
 .mobile_menu a .name {
   font-size: 10px;
   color: #87a0c6;
+}
+
+#form_message {
+  margin: 20px;
+  text-align: center;
+  background-color: #f5cca6;
+  border-radius: 10px;
 }
