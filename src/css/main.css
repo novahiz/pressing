@@ -442,7 +442,7 @@ body {
   position: fixed;
   right: 0px;
   left: 0px;
-  bottom: 5px;
+  bottom: 0px;
   box-shadow: 0 0 3px rgba(0, 16, 194, 0.489);
   background-color: white;
   z-index: 100;
